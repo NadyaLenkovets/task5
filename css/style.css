@@ -265,17 +265,21 @@ h6 {
 }
 
 .sidebar-menu__new {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px 0px 0px 12px;
   padding: 0px 8px;
   width: 41px;
   height: 24px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 40px;
+  transition: 0.4s ease;
+}
+
+.sidebar-menu__new a {
   color: #fff;
   font-size: 12px;
-  line-height: 23px;
-  transition: 0.4s ease;
 }
 
 .sidebar-menu__new:hover {
