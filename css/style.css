@@ -266,10 +266,10 @@ h6 {
 
 .sidebar-menu__new {
   margin: 0px 0px 0px 12px;
-  padding: 2px 8px 4px;
+  padding: 3px 8px 4px;
   width: 41px;
   height: 24px;
-  transform: translateY(2px);
+  transform: translateY(1px);
   background: rgba(0, 0, 0, 0.2);
   border-radius: 40px;
   transition: 0.4s ease;
