@@ -264,10 +264,6 @@ h6 {
   align-items: flex-start;
 }
 
-.sidebar-menu__item--new a {
-  display: block;
-}
-
 .sidebar-menu__new {
   margin: 0px 0px 0px 12px;
   padding: 0px 8px 0px;
@@ -278,9 +274,12 @@ h6 {
   transition: 0.4s ease;
   color: #fff;
   font-weight: 200;
-  font-family: 'Times New Roman', sans-serif;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 21px;
+}
+
+.sidebar-menu__new span {
+  vertical-align: baseline;
 }
 
 .sidebar-menu__new:hover {
