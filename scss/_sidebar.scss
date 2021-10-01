@@ -94,12 +94,11 @@
 }
 .sidebar-menu__item--new {
    display: flex;
-   align-items: baseline;
+   align-items: flex-start;
 }
 .sidebar-menu__new {
    margin: 0px 0px 0px 12px;
    padding: 0px 8px 0px;
-   // width: 41px;
    height: 24px;
    background: rgba(0, 0, 0, 0.2);
    border-radius: 40px;
