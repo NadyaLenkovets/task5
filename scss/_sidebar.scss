@@ -94,7 +94,10 @@
 }
 .sidebar-menu__item--new {
    display: flex;
-   align-items: center;
+   align-items: flex-start;
+   a {
+      display: block;
+   }
 }
 .sidebar-menu__new {
    margin: 0px 0px 0px 12px;
@@ -104,13 +107,13 @@
    // align-items: center;
    width: 41px;
    height: 24px;
-   transform: translateY(0.5px);
+   // transform: translateY(0.5px);
    background: rgba(0, 0, 0, 0.2);
    border-radius: 40px;
    transition: 0.4s ease;
    color: #fff;
    font-weight: 200; 
-   font-family: 'Arial', sans-serif;
+   font-family: 'Times New Roman', sans-serif;
    font-size: 12px;
    line-height: 24px;
    &:hover {
